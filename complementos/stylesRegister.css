@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: blueviolet;
+    background-size: cover;
+  }
+#formulario{
+    /* background-color: #fff; */
+  padding: 2rem 3rem;
+  text-align: center;
+  color: #fff;
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 25px #222;
+  backdrop-filter: blur(10px);
+}
+#form-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.input-form{
+    margin-top: 1em;
+}
+#msj{
+    width: 10em;
+    height: 10em;
+}
