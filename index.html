@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="complementos/bootstrap.css">
+    <link rel="stylesheet" href="complementos/styles.css">
+    <script src="https://kit.fontawesome.com/4f52228036.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="complementos/main.js" ></script>
+</head>
+<body>
+    <header id="header">
+        <nav  class="navbar navbar-nav-scroll fixed-top navbar-dark bg-dark"  style="--bs-scroll-height: 100px;" id="barra-navegacion">
+            <div>
+                <a onclick="cambiarModo()">
+                    <i class="fa-solid fa-circle fa-2xl" style="color: #ffffff;"></i>
+                </a>
+            
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.virbela.com%2Fgo%2Fmetaverse-future-of-work%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial-share%26utm_campaign%3Dmetaverse-panel-2021-04" ><i class="fa-brands fa-square-facebook fa-2xl" style="color: #ffffff;"></i></a>
+                
+                <a href="https://twitter.com/share?text=Join+a+one-of-a-kind+interactive+panel+discussion+with+the+founders+of+Second+Life%2C+Virbela%2C+and+other+thought+leaders+in+VR%2FAR+space.+&url=https%3A%2F%2Fwww.virbela.com%2Fgo%2Fmetaverse-future-of-work%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial-share%26utm_campaign%3Dmetaverse-panel-2021-04" ><i class="fa-brands fa-square-twitter fa-2xl" style="color: #ffffff;"></i></a>
+                
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.virbela.com%2Fgo%2Fmetaverse-future-of-work%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial-share%26utm_campaign%3Dmetaverse-panel-2021-04" ><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a>
+            </div>
+            <div>
+                <a class="button nav-link active" href="register.html">
+                    REGISTER
+                </a>
+            </div>
+            
+        </nav>
+        <div id="nombre-desc" >
+            <h2 id="nombre" data-aos="fade-down">
+                THE METAVERSE: 
+            </h2>
+            <h3 id="descripcion" data-aos="fade-down">
+                Join a one-of-a-kind interactive panel discussion with the founders of Virbela
+                , Second Life, High Fidelity, and other thought leaders in XR.
+            </h3>
+        </div>
+    </header>
+    
+    <footer id="footer">
+        <div id="cards-informacion"  data-aos="fade-up">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <i class="fa-solid fa-location-dot fa-xl" style="color: #bd00ad;"></i>
+                    <h5 class="card-title">UBICACION</h5>
+                    <p class="card-text">Virbela Open Campus Location</p>
+                    <a href="https://www.google.com.ar/maps/search/Virbela+Open+Campus/@-34.6593796,-58.5660443,14z" class="btn btn-primary btn-card">MAPS</a>
+                </div>   
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <i class="fa-solid fa-clock fa-xl" style="color: #c800ff;"></i>
+                    <h5 class="card-title">HORARIO</h5>
+                    <p class="card-text">May 13th, 12 PM PST</p>
+                </div>   
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <i class="fa-solid fa-ticket fa-xl" style="color: #b000e0;"></i>
+                    <h5 class="card-title">TICKETS</h5>
+                    <p class="card-text">FREE</p>
+                    <a href="#" class="btn btn-primary btn-card">REGISTER</a>
+                </div>
+            </div>
+        </div> 
+        <div id="topic">
+            <div id="div-topic-strings" data-aos="fade-up">
+                <h5 id="div-topic-strings-h5">THE TOPIC</h5>
+                <p>
+                    In many ways, the Metaverse is already here. Virtual worlds like Roblox, Minecraft, and Fortnite have billions of users  and economies that rival small countries.
+                    What role will virtual worlds and the Metaverse play in the future of work? Join the world's most prominent thought leaders in XR for a lively discussion as they share their vision and unravel this question.
+                </p>        
+            </div>
+            <div id="div-topic-img">
+                <img src="https://assets-global.website-files.com/5f50f7cde6ed0e3e54c7fb94/6086ec3313f80b9a36b335ba_highfidelity.jpg" alt="img-topic1" class="img-topic"  data-aos="fade-up">
+                <img src="https://assets-global.website-files.com/5f50f7cde6ed0e3e54c7fb94/6086ec47402fd00bac83cf7d_second-life-office.jpg" alt="img-topic2" class="img-topic"  data-aos="fade-down">
+                <img src="https://assets-global.website-files.com/5f50f7cde6ed0e3e54c7fb94/6086ec5be52cc75e73532fec_frame.jpg" alt="img-topic3" class="img-topic"  data-aos="fade-up">
+                <img src="https://assets-global.website-files.com/5f50f7cde6ed0e3e54c7fb94/6086ec69a650830686362d5c_virbela-speakeasy.jpg" alt="img-topic4" class="img-topic"  data-aos="fade-up">
+                <img src="https://assets-global.website-files.com/5f50f7cde6ed0e3e54c7fb94/6086ec83e83b401bca9a8c43_virbela-auditorium.jpg" alt="img-topic5" class="img-topic"  data-aos="fade-down">
+            </div>    
+        </div>
+        <div id="events-details">
+            <div id="div-title-events-details" data-aos="fade-right">
+                <h5>
+                    EVENT DETAILS
+                </h5>
+            </div>
+            <div id="div-events-details-text" data-aos="fade-left">
+                <h6>Where & When:</h6>
+                <p class="events-details-p">
+                    Thursday May 13th, 12:00 pm PT (3:00 pm ET) in our Virbela Open Campus
+                </p>
+                <h6>What to expect:</h6>
+                <p class="events-details-p">
+                    Join us for an active discussion about the Metaverse and its impact on the future of work with an esteemed panel of experts. Topics include:
+                </p>
+                <ul id="lista">
+                    <li class="item-lista">What is the Metaverse and what role will it play in the future of work?</li>
+                    <li class="item-lista">Why has the Metaverse and virtual worlds become a more relevant topic today than ever before?</li>
+                    <li class="item-lista">What are the technology advancements still needed to encourage mass adoption? </li>
+                </ul>
+                <p class="events-details-p">
+                    After the panel discussion, stick around for a networking session and opportunity to talk with panelists and other event attendees.
+                </p>
+                <a class="button nav-link active" href="register.html">
+                    REGISTER
+                </a>
+            </div>
+        </div>
+        <div id="pie-pagina">
+            <h6 id="contacto-pie-pagina">CONTACTO</h6>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.virbela.com%2Fgo%2Fmetaverse-future-of-work%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial-share%26utm_campaign%3Dmetaverse-panel-2021-04"><i class="fa-brands fa-square-facebook fa-2xl" style="color: #ffffff;"></i>facebook</a>
+            <a href="https://twitter.com/share?text=Join+a+one-of-a-kind+interactive+panel+discussion+with+the+founders+of+Second+Life%2C+Virbela%2C+and+other+thought+leaders+in+VR%2FAR+space.+&url=https%3A%2F%2Fwww.virbela.com%2Fgo%2Fmetaverse-future-of-work%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial-share%26utm_campaign%3Dmetaverse-panel-2021-04"><i class="fa-brands fa-square-twitter fa-2xl" style="color: #ffffff;"></i>Twitter</a>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.virbela.com%2Fgo%2Fmetaverse-future-of-work%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial-share%26utm_campaign%3Dmetaverse-panel-2021-04"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i>LinkedIn</a>
+            <a href="index.html"><i class="fa-sharp fa-solid fa-house fa-xl" style="color: #ffffff;"></i>Inicio</a>
+        </div>
+    </footer>
+    <script>
+        AOS.init();
+    </script>
+    
+</body>
+</html>
